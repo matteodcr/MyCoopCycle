@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "categorieProduit": {
+      "home": {
+        "title": "Categorie Produits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Categorie Produit",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Categorie Produit",
+        "notFound": "No Categorie Produits found"
+      },
+      "created": "Một Categorie Produit mới được tạo với định danh {{ param }}",
+      "updated": "Một Categorie Produit cập nhật với định danh {{ param }}",
+      "deleted": "Một Categorie Produit đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Categorie Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Categorie Produit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "items": "Items"
+    }
+  }
+}

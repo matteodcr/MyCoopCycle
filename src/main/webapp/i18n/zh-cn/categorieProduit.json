@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "categorieProduit": {
+      "home": {
+        "title": "Categorie Produits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Categorie Produit",
+        "createOrEditLabel": "创建或编辑 Categorie Produit",
+        "notFound": "No Categorie Produits found"
+      },
+      "created": "Categorie Produit {{ param }} 创建成功",
+      "updated": "Categorie Produit {{ param }} 更新成功",
+      "deleted": "Categorie Produit {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Categorie Produit {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Categorie Produit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "items": "Items"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20230320221330",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "item",
+  "fields": [
+    {
+      "fieldName": "prix",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["min", "required"],
+      "fieldValidateRulesMin": "0"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Item",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "produit",
+      "relationshipName": "produit",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "categorieProduit",
+      "otherEntityRelationshipName": "items",
+      "ownerSide": true,
+      "relationshipName": "categories",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

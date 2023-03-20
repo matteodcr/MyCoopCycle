@@ -1,0 +1,45 @@
+{
+  "applications": "*",
+  "changelogDate": "20230320221329",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "commande",
+  "fields": [
+    {
+      "fieldName": "dateLivraison",
+      "fieldType": "ZonedDateTime",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Commande",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "client",
+      "ownerSide": true,
+      "relationshipName": "client",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "livreur",
+      "ownerSide": true,
+      "relationshipName": "livreur",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "commercant",
+      "ownerSide": true,
+      "relationshipName": "commercant",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "item",
+      "relationshipName": "produit",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20230320221324",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "livreur",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "10",
+      "fieldValidateRulesMinlength": "2"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Livreur",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "cooperative",
+      "otherEntityRelationshipName": "livreurs",
+      "ownerSide": false,
+      "relationshipName": "cooperatives",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

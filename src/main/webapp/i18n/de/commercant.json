@@ -1,0 +1,26 @@
+{
+  "myCoopCycleApp": {
+    "commercant": {
+      "home": {
+        "title": "Commercants",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Commercant erstellen",
+        "createOrEditLabel": "Commercant erstellen oder bearbeiten",
+        "notFound": "Keine Commercants gefunden"
+      },
+      "created": "Commercant erstellt mit ID {{ param }}",
+      "updated": "Commercant aktualisiert mit ID {{ param }}",
+      "deleted": "Commercant gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Commercant {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Commercant"
+      },
+      "id": "ID",
+      "name": "Name",
+      "location": "Location",
+      "cooperatives": "Cooperatives"
+    }
+  }
+}

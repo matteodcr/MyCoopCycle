@@ -37,3 +37,5 @@ relationship ManyToMany {
   Cooperative{commercants} to Commercant{cooperatives}
   Item{categories} to CategorieProduit{items}
 }
+
+dto * with mapstruct

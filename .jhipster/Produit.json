@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20230320221327",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "produit",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "20",
+      "fieldValidateRulesMinlength": "3"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Produit",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

@@ -1,0 +1,26 @@
+{
+  "myCoopCycleApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Cooperative",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Cooperative",
+        "notFound": "No Cooperatives found"
+      },
+      "created": "Một Cooperative mới được tạo với định danh {{ param }}",
+      "updated": "Một Cooperative cập nhật với định danh {{ param }}",
+      "deleted": "Một Cooperative đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Cooperative {{ id }}?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "id": "ID",
+      "name": "Name",
+      "livreurs": "Livreurs",
+      "commercants": "Commercants"
+    }
+  }
+}

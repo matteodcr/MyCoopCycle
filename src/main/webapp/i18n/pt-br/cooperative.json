@@ -1,0 +1,26 @@
+{
+  "myCoopCycleApp": {
+    "cooperative": {
+      "home": {
+        "title": "Cooperatives",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Cooperative",
+        "createOrEditLabel": "Criar ou editar Cooperative",
+        "notFound": "Nenhum Cooperative encontrado"
+      },
+      "created": "Um novo Cooperative foi criado com o identificador {{ param }}",
+      "updated": "Um Cooperative foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Cooperative foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Cooperative {{ id }}?"
+      },
+      "detail": {
+        "title": "Cooperative"
+      },
+      "id": "ID",
+      "name": "Name",
+      "livreurs": "Livreurs",
+      "commercants": "Commercants"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "livreur": {
+      "home": {
+        "title": "Livreurs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Livreur",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Livreur",
+        "notFound": "No Livreurs found"
+      },
+      "created": "Một Livreur mới được tạo với định danh {{ param }}",
+      "updated": "Một Livreur cập nhật với định danh {{ param }}",
+      "deleted": "Một Livreur đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Livreur {{ id }}?"
+      },
+      "detail": {
+        "title": "Livreur"
+      },
+      "id": "ID",
+      "name": "Name",
+      "cooperatives": "Cooperatives"
+    }
+  }
+}

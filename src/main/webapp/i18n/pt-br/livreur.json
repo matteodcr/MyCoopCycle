@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "livreur": {
+      "home": {
+        "title": "Livreurs",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Livreur",
+        "createOrEditLabel": "Criar ou editar Livreur",
+        "notFound": "Nenhum Livreur encontrado"
+      },
+      "created": "Um novo Livreur foi criado com o identificador {{ param }}",
+      "updated": "Um Livreur foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Livreur foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Livreur {{ id }}?"
+      },
+      "detail": {
+        "title": "Livreur"
+      },
+      "id": "ID",
+      "name": "Name",
+      "cooperatives": "Cooperatives"
+    }
+  }
+}

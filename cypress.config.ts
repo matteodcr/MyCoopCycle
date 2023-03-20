@@ -11,6 +11,10 @@ export const defaultConfig = {
   viewportHeight: 720,
   retries: 2,
   scrollBehavior: 'center',
+  env: {
+    authenticationUrl: '/api/authenticate',
+    jwtStorageName: 'jhi-authenticationToken',
+  },
   e2e: {
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.

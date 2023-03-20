@@ -7,12 +7,13 @@ TranslatorContext.setRenderInnerTextForMissingKeys(false);
 
 export const languages: any = {
   'zh-cn': { name: '中文（简体）' },
-  'zh-tw': { name: '繁體中文' },
-  nl: { name: 'Nederlands' },
   en: { name: 'English' },
   fr: { name: 'Français' },
-  it: { name: 'Italiano' },
-  ru: { name: 'Русский' },
+  de: { name: 'Deutsch' },
+  ja: { name: '日本語' },
+  'pt-br': { name: 'Português (Brasil)' },
+  es: { name: 'Español' },
+  vi: { name: 'Tiếng Việt' },
   // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
 };
 

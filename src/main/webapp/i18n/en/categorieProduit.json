@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "categorieProduit": {
+      "home": {
+        "title": "Categorie Produits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Categorie Produit",
+        "createOrEditLabel": "Create or edit a Categorie Produit",
+        "notFound": "No Categorie Produits found"
+      },
+      "created": "A new Categorie Produit is created with identifier {{ param }}",
+      "updated": "A Categorie Produit is updated with identifier {{ param }}",
+      "deleted": "A Categorie Produit is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Categorie Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Categorie Produit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "items": "Items"
+    }
+  }
+}

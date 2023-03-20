@@ -1,0 +1,26 @@
+{
+  "myCoopCycleApp": {
+    "commercant": {
+      "home": {
+        "title": "Commercants",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Commercant",
+        "createOrEditLabel": "Criar ou editar Commercant",
+        "notFound": "Nenhum Commercant encontrado"
+      },
+      "created": "Um novo Commercant foi criado com o identificador {{ param }}",
+      "updated": "Um Commercant foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Commercant foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Commercant {{ id }}?"
+      },
+      "detail": {
+        "title": "Commercant"
+      },
+      "id": "ID",
+      "name": "Name",
+      "location": "Location",
+      "cooperatives": "Cooperatives"
+    }
+  }
+}

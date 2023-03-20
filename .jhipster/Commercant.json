@@ -1,0 +1,38 @@
+{
+  "applications": "*",
+  "changelogDate": "20230320221323",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "commercant",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength", "required"],
+      "fieldValidateRulesMaxlength": "20",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "20",
+      "fieldValidateRulesMinlength": "5"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Commercant",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "cooperative",
+      "otherEntityRelationshipName": "commercants",
+      "ownerSide": false,
+      "relationshipName": "cooperatives",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass"
+}

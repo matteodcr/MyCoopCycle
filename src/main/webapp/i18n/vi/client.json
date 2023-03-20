@@ -1,0 +1,24 @@
+{
+  "myCoopCycleApp": {
+    "client": {
+      "home": {
+        "title": "Clients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Client",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Client",
+        "notFound": "No Clients found"
+      },
+      "created": "Một Client mới được tạo với định danh {{ param }}",
+      "updated": "Một Client cập nhật với định danh {{ param }}",
+      "deleted": "Một Client đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Client {{ id }}?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}
