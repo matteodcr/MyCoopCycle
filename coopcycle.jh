@@ -1,0 +1,39 @@
+entity Commercant{
+  name String minlength(2) maxlength(20) required
+  location String minlength(5) maxlength(20)
+}
+entity Livreur{
+  name String minlength(2) maxlength(10) required
+}
+entity Cooperative{
+  name String minlength(3) maxlength(50) required
+}
+entity Client {
+  name String minlength(2) maxlength(10) required
+}
+entity Produit{
+  name String minlength(3) maxlength (20) required
+}
+entity CategorieProduit{
+  name String minlength(2) maxlength (10) required
+}
+entity Commande{
+  dateLivraison ZonedDateTime required
+}
+entity Item {
+  prix BigDecimal min(0) required
+}
+relationship ManyToOne {
+  Item{produit} to Produit
+  Commande{produit} to Item
+}
+relationship OneToOne {
+  Commande{client} to Client
+  Commande{livreur} to Livreur
+  Commande{commercant} to Commercant
+}
+relationship ManyToMany {
+  Cooperative{livreurs} to Livreur{cooperatives}
+  Cooperative{commercants} to Commercant{cooperatives}
+  Item{categories} to CategorieProduit{items}
+}
