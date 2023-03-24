@@ -159,7 +159,7 @@ describe('Produit e2e test', () => {
     });
 
     it('should create an instance of Produit', () => {
-      cy.get(`[data-cy="name"]`).type('b Proactive').should('have.value', 'b Proactive');
+      cy.get(`[data-cy="name"]`).type('Web Proactive').should('have.value', 'Web Proactive');
 
       cy.get(entityCreateSaveButtonSelector).click();
 

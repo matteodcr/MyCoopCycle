@@ -15,7 +15,7 @@ describe('Commercant e2e test', () => {
   const commercantPageUrlPattern = new RegExp('/commercant(\\?.*)?$');
   const username = Cypress.env('E2E_USERNAME') ?? 'user';
   const password = Cypress.env('E2E_PASSWORD') ?? 'user';
-  const commercantSample = { name: 'Technicien digital B' };
+  const commercantSample = { name: 'Orchestrator digital' };
 
   let commercant;
 
@@ -159,7 +159,7 @@ describe('Commercant e2e test', () => {
     });
 
     it('should create an instance of Commercant', () => {
-      cy.get(`[data-cy="name"]`).type('Rhône-Alpes Chicken ').should('have.value', 'Rhône-Alpes Chicken ');
+      cy.get(`[data-cy="name"]`).type('Wisconsin Chicken Dy').should('have.value', 'Wisconsin Chicken Dy');
 
       cy.get(`[data-cy="location"]`).type('Devolved Granite').should('have.value', 'Devolved Granite');
 

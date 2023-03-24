@@ -1,6 +1,6 @@
 {
-  "applications": "*",
-  "changelogDate": "20230320221324",
+  "applications": ["MyCoopCycle"],
+  "changelogDate": "20230324173416",
   "dto": "mapstruct",
   "embedded": false,
   "entityTableName": "livreur",

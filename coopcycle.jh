@@ -1,3 +1,23 @@
+
+application {
+  config {
+    baseName MyCoopCycle,
+    applicationType monolith,
+    packageName com.mycoopcycle,
+    authenticationType jwt,
+    databaseType sql
+    buildTool maven
+    prodDatabaseType postgresql,
+    clientFramework react
+    languages [en,fr,es,it,de]
+    clientTheme superhero
+    cacheProvider ehcache
+    clientThemeVariant primary
+    testFrameworks [cypress, cucumber, gatling]
+  }
+  entities *
+}
+
 entity Commercant{
   name String minlength(2) maxlength(20) required
   location String minlength(5) maxlength(20)
@@ -39,3 +59,6 @@ relationship ManyToMany {
 }
 
 dto * with mapstruct
+
+
+    

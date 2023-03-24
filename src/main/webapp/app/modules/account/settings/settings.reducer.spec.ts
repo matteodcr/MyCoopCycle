@@ -9,7 +9,7 @@ import { getAccount } from 'app/shared/reducers/authentication';
 
 describe('Settings reducer tests', () => {
   beforeAll(() => {
-    TranslatorContext.registerTranslations('fr', {});
+    TranslatorContext.registerTranslations('en', {});
   });
 
   describe('Common tests', () => {
@@ -70,7 +70,7 @@ describe('Settings reducer tests', () => {
     const resolvedObject = { value: 'whatever' };
     beforeEach(() => {
       const mockStore = configureStore([thunk]);
-      store = mockStore({ authentication: { account: { langKey: 'fr' } } });
+      store = mockStore({ authentication: { account: { langKey: 'en' } } });
       axios.get = sinon.stub().returns(Promise.resolve(resolvedObject));
       axios.post = sinon.stub().returns(Promise.resolve(resolvedObject));
     });

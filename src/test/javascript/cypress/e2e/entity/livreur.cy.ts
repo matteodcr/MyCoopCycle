@@ -15,7 +15,7 @@ describe('Livreur e2e test', () => {
   const livreurPageUrlPattern = new RegExp('/livreur(\\?.*)?$');
   const username = Cypress.env('E2E_USERNAME') ?? 'user';
   const password = Cypress.env('E2E_PASSWORD') ?? 'user';
-  const livreurSample = { name: 'Fresh Exec' };
+  const livreurSample = { name: 'Fresh Asso' };
 
   let livreur;
 
@@ -159,7 +159,7 @@ describe('Livreur e2e test', () => {
     });
 
     it('should create an instance of Livreur', () => {
-      cy.get(`[data-cy="name"]`).type('Auvergne n').should('have.value', 'Auvergne n');
+      cy.get(`[data-cy="name"]`).type('Colorado n').should('have.value', 'Colorado n');
 
       cy.get(entityCreateSaveButtonSelector).click();
 

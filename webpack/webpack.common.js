@@ -138,14 +138,11 @@ module.exports = async options => {
         new MergeJsonWebpackPlugin({
           output: {
             groupBy: [
-              { pattern: './src/main/webapp/i18n/fr/*.json', fileName: './i18n/fr.json' },
-              { pattern: './src/main/webapp/i18n/zh-cn/*.json', fileName: './i18n/zh-cn.json' },
               { pattern: './src/main/webapp/i18n/en/*.json', fileName: './i18n/en.json' },
-              { pattern: './src/main/webapp/i18n/de/*.json', fileName: './i18n/de.json' },
-              { pattern: './src/main/webapp/i18n/ja/*.json', fileName: './i18n/ja.json' },
-              { pattern: './src/main/webapp/i18n/pt-br/*.json', fileName: './i18n/pt-br.json' },
+              { pattern: './src/main/webapp/i18n/fr/*.json', fileName: './i18n/fr.json' },
               { pattern: './src/main/webapp/i18n/es/*.json', fileName: './i18n/es.json' },
-              { pattern: './src/main/webapp/i18n/vi/*.json', fileName: './i18n/vi.json' },
+              { pattern: './src/main/webapp/i18n/it/*.json', fileName: './i18n/it.json' },
+              { pattern: './src/main/webapp/i18n/de/*.json', fileName: './i18n/de.json' },
               // jhipster-needle-i18n-language-webpack - JHipster will add/remove languages in this array
             ],
           },

@@ -15,7 +15,7 @@ describe('Commande e2e test', () => {
   const commandePageUrlPattern = new RegExp('/commande(\\?.*)?$');
   const username = Cypress.env('E2E_USERNAME') ?? 'user';
   const password = Cypress.env('E2E_PASSWORD') ?? 'user';
-  const commandeSample = { dateLivraison: '2023-03-20T03:51:21.848Z' };
+  const commandeSample = { dateLivraison: '2023-03-23T23:17:08.848Z' };
 
   let commande;
 
@@ -159,7 +159,7 @@ describe('Commande e2e test', () => {
     });
 
     it('should create an instance of Commande', () => {
-      cy.get(`[data-cy="dateLivraison"]`).type('2023-03-20T09:21').blur().should('have.value', '2023-03-20T09:21');
+      cy.get(`[data-cy="dateLivraison"]`).type('2023-03-24T04:47').blur().should('have.value', '2023-03-24T04:47');
 
       cy.get(entityCreateSaveButtonSelector).click();
 

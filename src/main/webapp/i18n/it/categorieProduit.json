@@ -1,0 +1,25 @@
+{
+  "myCoopCycleApp": {
+    "categorieProduit": {
+      "home": {
+        "title": "CategorieProduits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Categorie Produit",
+        "createOrEditLabel": "Genera o modifica un Categorie Produit",
+        "notFound": "No Categorie Produits found"
+      },
+      "created": "&Egrave; stato generato un nuovo Categorie Produit con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Categorie Produit identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Categorie Produit con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Categorie Produit {{ id }}?"
+      },
+      "detail": {
+        "title": "Categorie Produit"
+      },
+      "id": "ID",
+      "name": "Name",
+      "items": "Items"
+    }
+  }
+}

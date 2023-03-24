@@ -1,0 +1,26 @@
+{
+  "myCoopCycleApp": {
+    "item": {
+      "home": {
+        "title": "Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Item",
+        "createOrEditLabel": "Genera o modifica un Item",
+        "notFound": "No Items found"
+      },
+      "created": "&Egrave; stato generato un nuovo Item con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Item identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Item con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Item"
+      },
+      "id": "ID",
+      "prix": "Prix",
+      "produit": "Produit",
+      "categories": "Categories"
+    }
+  }
+}
